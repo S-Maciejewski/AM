@@ -22,15 +22,18 @@ namespace AM
             stopButton = FindViewById<Button>(Resource.Id.stopButton);
             textDebug.Text = "App debug:\n";
 
-            connectButton.Click += delegate {
+            connectButton.Click += delegate
+            {
                 textDebug.Text = "Connecting...";
             };
 
-            startButton.Click += delegate {
+            startButton.Click += delegate
+            {
                 textDebug.Text = "Starting";
             };
 
-            stopButton.Click += delegate {
+            stopButton.Click += delegate
+            {
                 textDebug.Text = "Stopping";
             };
         }
