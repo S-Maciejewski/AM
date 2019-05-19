@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab2</string>
+
+    <string name="title_activity_welcome">welcome</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_scoreboard">scoreboard</string>
+</resources>
