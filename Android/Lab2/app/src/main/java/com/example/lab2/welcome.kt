@@ -57,8 +57,8 @@ class welcome : AppCompatActivity() {
 
         val thread = Thread(){
             run{
-                sleep(3000)
-                val intent = Intent(this, MainActivity::class.java)
+                sleep(1500)
+                val intent = Intent(this, Login::class.java)
                 startActivity(intent)
             }
         }
